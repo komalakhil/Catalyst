@@ -1,0 +1,46 @@
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.bg{
+    height:100%;
+    background-image: url("img.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    position:relative;
+    top:250px;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    width:500px;
+    position:relative;
+    bottom: 550px;
+    left:740px;
+    color:white;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+a:link{
+    color:green;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration-line: underline;
+}
+a:visited{
+    color:white;
+}
