@@ -1,0 +1,106 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css";
+.container{
+    color: white;
+    position: relative;
+    top:100px;
+    display: block;
+    text-align: center;
+
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration-line: underline;
+}
+a:visited{
+    color:white;
+}
+a{
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size:small;
+}
+.form-label{
+    color:white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+}
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.bg{
+    height:100%;
+    background-image: url("img.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Cinzel decorative',cursive;
+    font-size: 2em;
+    position:relative;
+    top:50px;
+    opacity: 10px;
+    font-size:60px;
+}
+.home{
+    display:block;
+    text-align: end;
+    position: relative;
+    right:80px;
+    top:40px;
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size: 20px;
+}
+.forgotpw{
+    display: block;
+    text-align: center;
+    
+}
+.button{
+    font-size:larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+   
+}
+.login{
+    font-size: 1em;
+    color:#0a051b;
+}
+i{
+    color:white;
+}
+.username{
+    font-size: x-large;
+}
+.password{
+    font-size: x-large;
+}
+.form-holder
+{
+    width:100%;
+    max-width: 400px;
+    padding:30px;
+    background:rgba(220,220,220,.5);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1),0 2px 2px 0 rgba(0,0,0,0.1);
+    margin:auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    padding-bottom: 80px;
+   
+}
