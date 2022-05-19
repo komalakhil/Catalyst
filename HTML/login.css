@@ -48,7 +48,7 @@ h1{
     color:white;
     text-align: center;
     font-family: 'Cinzel decorative',cursive;
-    font-size: 2em;
+    font-size: 1.5rem;
     position:relative;
     top:50px;
     opacity: 10px;
@@ -62,7 +62,7 @@ h1{
     top:40px;
     font-family: 'Cinzel decorative',cursive;
     color:white;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 .forgotpw{
     display: block;
@@ -71,14 +71,9 @@ h1{
 }
 .button{
     font-size:larger;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
 
-   
-}
-.login{
-    font-size: 1em;
-    color:#0a051b;
-}
 i{
     color:white;
 }
@@ -103,4 +98,9 @@ i{
 h1{
     padding-bottom: 80px;
    
+}
+.submitbtn{
+    color:#0a051b;
+    padding:5px 20px;
+    border-style: none;
 }
