@@ -1,0 +1,102 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+   }
+.bg{
+    height:100%;
+    background-image: url("background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat; 
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.profile{
+    display:inline;
+    float:right;
+    position: relative;
+    right:15rem;
+    top:3rem;
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.logout{
+    display:inline;
+    float: right;
+    position: relative;
+    right:0.5rem;
+    top:3rem;
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.h1{
+    
+    color:white;
+    font-family: 'Cinzel decorative',cursive;
+    font-size: 2rem;
+    top: 20%;
+    left: 50%;
+    margin-top: 60px;
+    margin-left: -200px;
+    position:relative;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration-line: underline;
+}
+a:visited{
+    color:white;
+}
+.parent{
+    max-width:50%;
+    display:flex;
+    margin:auto;
+    flex-direction: row;
+    flex-grow: 2;
+    gap: 200px;
+    justify-content:space-evenly;
+    color:white;
+    position: relative;
+    left:80px;
+    
+}
+.cocir{
+    display: block;
+    margin-top:80px;
+    box-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 30px;
+    left:-2.5rem;
+    position: relative;
+    padding: 2rem;
+    
+}
+.extcir{
+    display:block;
+    margin-top:80px;
+    align-self: flex-end;
+    box-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 30px;
+    position: relative;
+    left:-150px;
+    padding: 2rem;
+    
+}
+.mainheading{
+    color:white;
+    font-family: 'Cinzel decorative',cursive;
+    padding-top: 7%;
+    font-size: xx-large;
+    text-align: center;
+}
